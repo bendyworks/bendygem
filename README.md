@@ -1,5 +1,7 @@
 # Bendy
 
+[![Gem Version](https://badge.fury.io/rb/bendy.svg)](http://badge.fury.io/rb/bendy)
+
 This is a collection of helpful utilities in use at Bendyworks.
 
 ## Installation
