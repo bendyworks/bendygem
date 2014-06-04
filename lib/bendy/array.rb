@@ -1,5 +1,5 @@
 ##
-# We're using refinements to *freedom patch* `Array` in a safe way.
+# We're using refinements to _freedom patch_ Array in a safe way.
 
 module Bendy
 
@@ -7,7 +7,7 @@ module Bendy
   refine Array do
 
     ##
-    # `tails` produces all sub-arrays by successively dropping leading
+    # +tails+ produces all sub-arrays by successively dropping leading
     # elements:
     #
     #     [1, 2, 3].tails
@@ -18,7 +18,7 @@ module Bendy
     end
 
     ##
-    # `inits` produces all sub-arrays by successively taking leading
+    # +inits+ produces all sub-arrays by successively taking leading
     # elements:
     #
     #     [1, 2, 3].tails

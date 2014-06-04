@@ -2,13 +2,17 @@ module Bendy
   refine Object do
 
     ##
-    # `try` acts like a normal method call, unless it is being called
-    # on a nil object, in which case it returns nil:
+    # call-seq:
+    #   try(:some_method) #=> result of method or nil
     #
-    #   nil.try(:to_i)   # => nil
-    #   "10".try(:to_i)  # => 10
+    # +try+ acts like a normal method call, unless it is being called
+    # on a +nil+ object, in which case it returns +nil+:
     #
-    # Copied pretty much verbatim from ActiveSupport: https://github.com/rails/rails/blob/master/activesupport/lib/active_support/core_ext/object/try.rb
+    #     nil.try(:to_i)   # => nil
+    #     "10".try(:to_i)  # => 10
+    #
+    # Copied pretty much verbatim from ActiveSupport:
+    # https://github.com/rails/rails/blob/master/activesupport/lib/active_support/core_ext/object/try.rb
 
     def try(*a, &b)
       if a.empty? && block_given?
