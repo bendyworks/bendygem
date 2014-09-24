@@ -1,6 +1,5 @@
 require "bendy/array"
 require "bendy/hash"
-require "bendy/kernel"
 require "bendy/logical"
 require "bendy/object"
 require "bendy/version"
