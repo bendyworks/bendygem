@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "bendy"
   spec.version       = Bendy::VERSION
   spec.authors       = ["Chris Wilson", "Will Strinz"]
-  spec.email         = ["chris@bendyworks.com"]
+  spec.email         = ["chris@bendyworks.com", "will@bendyworks.com"]
   spec.summary       = %q{A collection of helpful libraries}
   spec.description   = %q{This gem is a cornucopia of software bric-à-brac, for great justice}
   spec.homepage      = "https://github.com/twopoint718/bendygem"
