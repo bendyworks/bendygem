@@ -18,6 +18,12 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
+  spec.add_dependency 'contracts'
+  # spec.add_dependency 'rantly'       # wait for some PRs
+  spec.add_dependency 'rspec'
+  spec.add_dependency 'simplecov'
+  spec.add_dependency 'test-unit'
+
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake",    "< 11"
 
